@@ -1,0 +1,201 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-01-24 08:53:10 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 09:15:13 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 09:15:19 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 09:15:34 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 09:15:34 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 09:15:36 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 09:15:59 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 09:56:39 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 09:56:41 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 09:56:45 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 09:56:53 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 09:56:54 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 10:03:20 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 10:04:46 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 10:04:53 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 10:05:01 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 10:05:08 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 10:07:13 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 10:07:13 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 10:07:18 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 10:07:18 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 10:08:15 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 10:08:15 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 10:08:30 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 10:08:31 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 10:10:08 --> Severity: Notice --> Undefined variable: clientOrBussinessArea /home/itegpnnu/public_html/clients/abrarlc/tsonar/application/views/admin_side/talentRequests/header-common/job_request.php 2271
+ERROR - 2019-01-24 10:10:08 --> Severity: Warning --> Invalid argument supplied for foreach() /home/itegpnnu/public_html/clients/abrarlc/tsonar/application/views/admin_side/talentRequests/header-common/job_request.php 2271
+ERROR - 2019-01-24 10:10:14 --> 404 Page Not Found: Dist/img
+ERROR - 2019-01-24 10:10:14 --> 404 Page Not Found: Dist/img
+ERROR - 2019-01-24 10:14:51 --> Severity: Notice --> Undefined variable: clientOrBussinessArea /home/itegpnnu/public_html/clients/abrarlc/tsonar/application/views/admin_side/talentRequests/header-common/job_request.php 2271
+ERROR - 2019-01-24 10:14:51 --> Severity: Warning --> Invalid argument supplied for foreach() /home/itegpnnu/public_html/clients/abrarlc/tsonar/application/views/admin_side/talentRequests/header-common/job_request.php 2271
+ERROR - 2019-01-24 10:14:57 --> 404 Page Not Found: Dist/img
+ERROR - 2019-01-24 10:14:57 --> 404 Page Not Found: Dist/img
+ERROR - 2019-01-24 10:15:01 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 10:15:14 --> Severity: Notice --> Undefined variable: clientOrBussinessArea /home/itegpnnu/public_html/clients/abrarlc/tsonar/application/views/admin_side/talentRequests/header-common/job_request.php 2271
+ERROR - 2019-01-24 10:15:14 --> Severity: Warning --> Invalid argument supplied for foreach() /home/itegpnnu/public_html/clients/abrarlc/tsonar/application/views/admin_side/talentRequests/header-common/job_request.php 2271
+ERROR - 2019-01-24 10:15:15 --> 404 Page Not Found: Dist/img
+ERROR - 2019-01-24 10:15:15 --> 404 Page Not Found: Dist/img
+ERROR - 2019-01-24 10:32:12 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 10:32:12 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 10:32:12 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 10:32:14 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 10:32:15 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 10:32:17 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 10:32:23 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 10:32:26 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 10:32:39 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 10:32:39 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 10:39:47 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 10:39:47 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 10:39:49 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 10:39:49 --> 404 Page Not Found: Public/img
+ERROR - 2019-01-24 10:39:50 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 10:39:52 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 10:39:53 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 10:42:38 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 10:42:38 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 11:44:06 --> Severity: Notice --> Undefined variable: clientOrBussinessArea /home/itegpnnu/public_html/clients/abrarlc/tsonar/application/views/admin_side/talentRequests/header-common/job_request.php 2271
+ERROR - 2019-01-24 11:44:06 --> Severity: Warning --> Invalid argument supplied for foreach() /home/itegpnnu/public_html/clients/abrarlc/tsonar/application/views/admin_side/talentRequests/header-common/job_request.php 2271
+ERROR - 2019-01-24 11:44:13 --> 404 Page Not Found: Dist/img
+ERROR - 2019-01-24 11:44:13 --> 404 Page Not Found: Dist/img
+ERROR - 2019-01-24 11:44:17 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 11:44:21 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 11:44:24 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 11:44:35 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 11:44:35 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 11:44:35 --> 404 Page Not Found: Public/img
+ERROR - 2019-01-24 11:44:58 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 11:44:59 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 11:44:59 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 11:45:14 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 11:45:15 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 11:45:15 --> 404 Page Not Found: Public/img
+ERROR - 2019-01-24 11:45:15 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 11:45:15 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 11:46:49 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 11:46:49 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 11:46:50 --> 404 Page Not Found: Public/img
+ERROR - 2019-01-24 11:46:50 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 11:46:50 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 12:09:48 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 12:09:50 --> 404 Page Not Found: Public/img
+ERROR - 2019-01-24 12:09:50 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 12:09:51 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 12:09:52 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 12:09:54 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 12:09:59 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 12:47:09 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 12:47:09 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 12:47:09 --> 404 Page Not Found: Public/img
+ERROR - 2019-01-24 12:47:09 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 12:47:10 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 12:47:33 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 12:47:35 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 12:47:39 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 12:50:15 --> Severity: error --> Exception: syntax error, unexpected ';' /home/itegpnnu/public_html/clients/abrarlc/tsonar/application/controllers/Home.php 663
+ERROR - 2019-01-24 12:50:36 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 12:50:39 --> 404 Page Not Found: Public/img
+ERROR - 2019-01-24 12:50:39 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 12:50:42 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 12:50:42 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 12:50:43 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 12:51:01 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 12:51:18 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 12:51:19 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 12:51:22 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 12:53:16 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 12:53:16 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 12:53:16 --> 404 Page Not Found: Public/img
+ERROR - 2019-01-24 12:53:16 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 12:53:17 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 12:53:24 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 12:53:24 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 12:53:25 --> 404 Page Not Found: Public/img
+ERROR - 2019-01-24 12:53:25 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 12:53:25 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 12:53:29 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 12:53:29 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 12:53:29 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 12:53:29 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 12:53:38 --> Severity: Notice --> Undefined variable: clientOrBussinessArea /home/itegpnnu/public_html/clients/abrarlc/tsonar/application/views/admin_side/talentRequests/header-common/job_request.php 2271
+ERROR - 2019-01-24 12:53:38 --> Severity: Warning --> Invalid argument supplied for foreach() /home/itegpnnu/public_html/clients/abrarlc/tsonar/application/views/admin_side/talentRequests/header-common/job_request.php 2271
+ERROR - 2019-01-24 12:53:43 --> 404 Page Not Found: Dist/img
+ERROR - 2019-01-24 12:53:43 --> 404 Page Not Found: Dist/img
+ERROR - 2019-01-24 12:58:58 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 12:58:58 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 12:58:58 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 12:58:59 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 12:59:03 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 12:59:04 --> 404 Page Not Found: Public/img
+ERROR - 2019-01-24 12:59:04 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 12:59:06 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 12:59:06 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 13:52:35 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 13:52:38 --> 404 Page Not Found: Public/img
+ERROR - 2019-01-24 13:52:39 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 13:52:39 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 13:52:41 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 13:52:42 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 13:52:50 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 13:55:41 --> Severity: Notice --> Undefined variable: clientOrBussinessArea /home/itegpnnu/public_html/clients/abrarlc/tsonar/application/views/admin_side/talentRequests/header-common/job_request.php 2271
+ERROR - 2019-01-24 13:55:41 --> Severity: Warning --> Invalid argument supplied for foreach() /home/itegpnnu/public_html/clients/abrarlc/tsonar/application/views/admin_side/talentRequests/header-common/job_request.php 2271
+ERROR - 2019-01-24 13:55:42 --> Severity: Notice --> Undefined variable: clientOrBussinessArea /home/itegpnnu/public_html/clients/abrarlc/tsonar/application/views/admin_side/talentRequests/header-common/job_request.php 2271
+ERROR - 2019-01-24 13:55:42 --> Severity: Warning --> Invalid argument supplied for foreach() /home/itegpnnu/public_html/clients/abrarlc/tsonar/application/views/admin_side/talentRequests/header-common/job_request.php 2271
+ERROR - 2019-01-24 13:55:57 --> 404 Page Not Found: Dist/img
+ERROR - 2019-01-24 13:55:57 --> 404 Page Not Found: Dist/img
+ERROR - 2019-01-24 14:58:45 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 15:22:27 --> Severity: Notice --> Undefined variable: clientOrBussinessArea /home/itegpnnu/public_html/clients/abrarlc/tsonar/application/views/admin_side/talentRequests/header-common/job_request.php 2271
+ERROR - 2019-01-24 15:22:27 --> Severity: Warning --> Invalid argument supplied for foreach() /home/itegpnnu/public_html/clients/abrarlc/tsonar/application/views/admin_side/talentRequests/header-common/job_request.php 2271
+ERROR - 2019-01-24 15:22:29 --> 404 Page Not Found: Dist/img
+ERROR - 2019-01-24 15:22:29 --> 404 Page Not Found: Dist/img
+ERROR - 2019-01-24 15:28:54 --> 404 Page Not Found: Public/admin
+ERROR - 2019-01-24 15:34:13 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 15:54:33 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 15:54:33 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 15:59:41 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 15:59:43 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 15:59:45 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 15:59:52 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 15:59:52 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 15:59:52 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 16:15:15 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 16:15:26 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 16:15:40 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 16:15:40 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 16:15:41 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 16:15:51 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 16:16:22 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 16:16:23 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 16:16:23 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 16:16:23 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 16:18:35 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 16:18:37 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 16:18:41 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 16:19:03 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 16:19:06 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 16:19:07 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 16:19:13 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 16:19:55 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 17:04:38 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 17:04:38 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 17:04:44 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 17:04:44 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 17:07:24 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 18:13:38 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 18:13:40 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 18:13:49 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 18:15:23 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 18:15:37 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 18:15:40 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 18:16:03 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 18:16:04 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 18:23:21 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 18:23:27 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 18:23:29 --> 404 Page Not Found: Public/js
+ERROR - 2019-01-24 18:23:33 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 18:27:59 --> 404 Page Not Found: Faviconico/index
+ERROR - 2019-01-24 18:30:18 --> 404 Page Not Found: Public/css
+ERROR - 2019-01-24 18:30:18 --> 404 Page Not Found: Public/js

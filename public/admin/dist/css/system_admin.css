@@ -1,0 +1,438 @@
+#example_wrapper{
+	background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(63, 63, 68, 0.1);
+	padding: 15px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	.filter_category input{
+		margin-bottom: 10px;
+	}
+
+	.filter_category select{
+		margin-bottom: 10px;
+	}
+
+	.form_padd_left{
+		clear: both;
+	}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 3000px){
+	.form_padd_left{
+		padding-left: 0px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	.form_padd_left{
+		padding-left: 0px;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	.form_padd_left{
+		padding: 0px;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px){
+	#example_wrapper{
+		width: 100%;
+		overflow-y: scroll;
+	}
+}
+
+
+
+.checkbox {
+	padding-left: 20px;
+}
+
+.checkbox label {
+	display: inline-block;
+	position: relative;
+	padding-left: 5px;
+}
+
+.checkbox label::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	left: 0;
+	margin-left: -20px;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	background-color: #fff;
+	-webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+	-o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+	transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.checkbox label::after {
+	display: inline-block;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0;
+	top: 0;
+	margin-left: -20px;
+	padding-left: 3px;
+	padding-top: 1px;
+	font-size: 11px;
+	color: #555555;
+}
+
+.checkbox input[type="checkbox"] {
+	opacity: 0;
+}
+
+.checkbox input[type="checkbox"]:focus + label::before {
+	outline: thin dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+
+.checkbox input[type="checkbox"]:checked + label::after {
+	font-family: 'FontAwesome';
+	content: "\f00c";
+}
+
+.checkbox input[type="checkbox"]:disabled + label {
+	opacity: 0.65;
+}
+
+.checkbox input[type="checkbox"]:disabled + label::before {
+	background-color: #eeeeee;
+	cursor: not-allowed;
+}
+
+.checkbox.checkbox-circle label::before {
+	border-radius: 50%;
+}
+
+.checkbox.checkbox-inline {
+	margin-left:0px !important;
+	margin-top: 0;
+}
+
+.checkbox label::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	width: 15px;
+	height: 16px;
+	left: 0;
+	margin-left: -20px;
+	border: 1px solid #3F5765;
+	border-radius: 0px;
+}
+
+.checkbox label::after {
+	color: #87C508;
+}
+
+.search_time .checkbox label::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	width: 23px;
+	height: 23px;
+	left: 0;
+	margin-left: -20px;
+	border: 1px solid #D5D5D5;
+	border-radius: 1px;
+	background-color: #fff;
+	-webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+	-o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+	transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.search_time .checkbox label::after {
+	display: inline-block;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0px;
+	top: 0px;
+	margin-left: -20px;
+	padding-left: 3px;
+	padding-top: 1px;
+	font-size: 18px;
+	color: #41DF7C;
+}
+
+.search_time .checkbox label::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	width: 18px;
+    height: 18px;
+	left: 0;
+	margin-left: -20px;
+	border: 1px solid #D5D5D5;
+	border-radius: 1px;
+	background-color: #fff;
+	-webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+	-o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+	transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.search_time .checkbox label::after {
+	display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 2px;
+    top: -1px;
+    margin-left: -23px;
+    padding-left: 3px;
+    padding-top: 1px;
+    font-size: 14px;
+    color: #42C500;
+}
+
+.league_category h3{
+	font-size: 24px;
+    font-weight: bold;
+    color: #5c5c5c;
+    margin: 10px 0px;
+}
+
+.league_ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+
+.league_ul li{
+	float:left;
+	padding-right:70px;
+}
+
+.league_ul label{
+	color:#000000;
+	font-size:14px;
+	line-height: 18px;
+}
+
+.league_time_ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+
+.league_time_ul li{
+	float:left;
+	padding-right:10px;
+}
+
+.league_time_ul label{
+	color:#000000;
+	font-size:14px;
+	line-height: 23px;
+}
+
+.price_box input[type=text] {
+	width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #E3E3E3;
+    border-radius: 0px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    color: #000;
+    height: 36px;
+}
+
+.listing_search{
+	background: #3F4A59;
+    border: 1px solid #3F4A59;
+    color: #fff;
+    font-size: 17px;
+    width: 120px;
+    height: 36px;
+    border-radius: 4px;
+    line-height: 0px;
+}
+
+.listing_search:hover{
+	background:#fff;
+	border:1px solid #3F4A59;
+	color:#3F4A59;
+	transition:0.7s;
+}
+
+.picks_value {
+    height: 36px;
+    float: right;
+    border: 1px solid #E3E3E3;
+    box-shadow: none;
+    padding: 0px 8px;
+    color: #4c4c4c;
+    font-size: 16px;
+	width: 100%;
+    background: url(../img/dropdown_arrow.png) no-repeat;
+    background-color: transparent !Important;
+    background-position: right center;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0px !important;
+}
+
+.filter_category{
+	background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(63, 63, 68, 0.1);
+}
+
+#Agency_profile_detail h3{
+	margin: 0px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#Agency_profile_detail p{
+	margin: 0px;
+}
+
+#Agency_profile_detail .close {
+	font-size: 40px;
+    opacity: 1;
+    color: #fff;
+    font-weight: 100;
+    margin-top: -4px;
+    height: 40px;
+    outline: none !important;
+	position: relative;
+}
+
+#Agency_profile_detail .modal-header h2 {
+    color: #fff;
+	font-size: 24px;
+}
+
+#Agency_profile_detail .modal-header {
+    padding: 10px 15px;
+    background: #768292;
+}
+
+
+.autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative;
+  display: inline-block;
+}
+
+#datepicker {
+    width: 308px;
+    height: 48px;
+    border-radius: 0px;
+    border: none;
+    max-width: 100%;
+    background: white;
+    padding-left: 15px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.gj-datepicker-md [role=right-icon]{
+	top: 6px;
+    right: 5px;
+    color: #861433;
+    font-size: 40px;
+}
+
+
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9;
+}
+
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
+
+#example .btn-danger{
+	border: none;
+    box-shadow: none;
+    outline: none;
+    color: #fff;
+}
+
+#example .btn-success .fa-check{
+	color: #fff;
+}
+
+#example .fa-check:before {
+    color: #fff !important;
+}
+
+#example .btn-success{
+	border: none;
+    box-shadow: none;
+    outline: none;
+    color: #fff;
+}
+
+#myModal_hire_delete .modal-footer .btn-danger{
+	background: red;
+	border: 1px solid red;
+	box-shadow: none;
+	color: #fff !important;
+}
+
+#myModal_hire_delete .modal-header {
+    padding: 10px 15px;
+    background: red;
+}
+
+#myModal_hire_delete .modal-header h2 {
+    color: #fff;
+    font-size: 24px;
+}
+
+#myModal_hire_delete .close {
+    font-size: 40px;
+    opacity: 1;
+    color: #fff;
+    font-weight: 100;
+    margin-top: -4px;
+    height: 40px;
+    outline: none !important;
+	position: relative;
+}
+
+.modal {
+    overflow-y: auto !important;
+}

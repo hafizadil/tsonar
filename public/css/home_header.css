@@ -1,0 +1,3065 @@
+.checkbox_bg_class{background:red !important; color: #fff !important;}
+
+#myModall3 .dropdown-menu {
+     left: 65px;
+}
+ #demo3 a {
+     display: block;
+     height: 38px;
+     padding: 8px 10px;
+}
+ #demo3 a:hover, #demo3 a:active, #demo3 a:focus {
+     outline: none;
+     text-decoration: none;
+     background: #42C500;
+     color: #fff;
+}
+ .btn_width {
+     width: 179px;
+}
+ #demo3 table td {
+     padding: 0px !important;
+     height: 38px;
+     vertical-align: middle !important;
+}
+ .table_intro tbody tr td {
+     border: 1px solid #dcdcdc !important;
+     padding: 0px;
+     white-space: nowrap;
+     font-size: 12px;
+     font-weight: 500;
+}
+ .table_intro thead tr td {
+     border: 1px solid #dcdcdc !important;
+     padding: 0px;
+}
+ #table_job_intro thead tr td {
+     border: none;
+}
+ #table_job_intro tbody tr td {
+     border: none;
+}
+ .code {
+     background: #d9d9d9;
+     color: #777;
+     border-radius: 5px;
+     padding: 5px;
+}
+ #button_checked label {
+    transition: 0.25s ease;
+    padding: 9px 10px;
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+ #button_checked input[type=checkbox] {
+     display: none;
+}
+ #button_checked input:checked + label {
+     color: #fff;
+     background: #42C500;
+}
+ .dropdown dd, .dropdown dt {
+     margin: 0px;
+     padding: 0px;
+}
+ #dropdown_multi{
+     margin-bottom: 0px;
+}
+ #dropdown_multi a{
+     height: 38px !important;
+     padding: 7px 10px !important;
+     border: none;
+     color: #000 ;
+     font-size: 14px;
+}
+ #dropdown_multi ul{
+     padding-left: 0px !important;
+     padding-right: 0px !important;
+}
+ .td_1_green_label label{
+     padding-left: 5px !important;
+}
+ .dropdown dd {
+     position: relative;
+}
+ .dropdown a, .dropdown a:visited {
+     color: #000;
+     text-decoration: none;
+     outline: none;
+     font-size: 12px;
+}
+ .dropdown dt a {
+     background-color: #fff;
+     display: block;
+     padding: 8px 20px 5px 10px;
+     line-height: 24px;
+     overflow: hidden;
+     border: 1px solid #D2D6DE;
+     width: 100%;
+     min-height: 34px;
+}
+ .dropdown dt a spa {
+     cursor: pointer;
+     display: inline-block;
+     padding: 0 3px 2px 0;
+}
+ .multiSel {
+     padding: 0;
+     margin: 0;
+     width: 95%;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     padding-right: 5%;
+}
+ .multiSel span {
+     cursor: pointer;
+     display: inline;
+     padding: 0 3px 2px 0;
+}
+ .dropdown dd ul {
+     background-color: #4F6877;
+     border: 0;
+     color: #fff;
+     display: none;
+     left: 0px;
+     padding: 2px 15px 2px 5px;
+     position: absolute;
+     top: 2px;
+     width: 100%;
+     list-style: none;
+     height: 100px;
+     overflow: auto;
+}
+ .dropdown span.value {
+     display: none;
+}
+ .dropdown dd ul li a {
+     padding: 5px;
+     display: block;
+}
+ .dropdown dd ul li a:hover {
+     background-color: #fff;
+}
+ .td_1_green_label {
+     background: #3F4A59;
+     color: #fff !important;
+     border-bottom: solid 1px #fff !important;
+     margin-bottom: 1px;
+}
+ .td_1_green_label:hover {
+     color: #fff;
+     background: #647182;
+     cursor: pointer;
+}
+ .td_1_green_label label {
+     color: #fff !important;
+}
+ #button_checked input{
+     height: 40px;
+     border: none;
+}
+ #button_checked select{
+     height: 40px;
+     border: none;
+     padding-left: 10px;
+}
+ @media only screen and (min-width: 1025px) and (max-width: 1920px){
+	.clone_desktop_buttons{display: block !important;}
+	.clone_mobile_buttons{display: none !important;}
+
+	.recutier_desktop_table{
+		display: block !important;
+	}
+
+	.recutier_mobile_tab{
+		display: none !important;
+	}
+
+	.tick_specialism_desktop {
+		position: relative;
+		float: right;
+		display: table;
+		margin-top: -28px;
+		margin-bottom: 0;
+		margin-left: 0;
+		margin-right: 23px;
+	}
+
+	td > span.tick_specialism_desktop {
+		float: right;
+		display: table;
+		margin-top: -28px;
+		margin-bottom: 0;
+		margin-left: 0;
+		margin-right: 23px;
+	}
+
+	#demo3 .table-responsive{
+         overflow-x: inherit;
+    }
+     #clone_table_main .table-responsive{
+         overflow-x: inherit;
+    }
+     #myModal5 .modal-dialog {
+         width: 87% !important;
+    }
+     #myModal .modal-dialog {
+         width: 70% !important;
+    }
+
+}
+ #clone_table td{
+     height: 38px;
+     padding-top: 11px;
+}
+ #date_tabs .panel-heading a {
+     color: #333;
+     padding: 3px;
+     font-size: 18px;
+     width: 95px;
+     text-align: center;
+}
+ #date_tabs .panel-heading {
+     background-color: white;
+     border-color: #ddd;
+     padding: 0px;
+}
+ #date_tabs {
+     border-color: transparent;
+}
+ .date_events ul{
+     padding: 0px;
+     list-style-type: none;
+}
+ .date_events ul li{
+     float: left;
+         width: 20%;
+}
+ #date_tabs .panel-body{
+     padding: 0px 0px 5px;
+}
+ .date_events li a .label{
+     padding: .2em 0.3em .2em !important;
+     font-size: 80% !important;
+}
+ #calendar_dropdown .slimScrollDiv{
+     height: 79px !important;
+}
+ .input-group .input-group-addon {
+     border-color: white;
+}
+ @media only screen and (min-width: 768px) and (max-width: 1920px){
+
+
+	.mobile_clearfix{
+		display: none !important;
+	}
+
+	.mobile_modal_header{
+		display: none !important;
+	}
+
+	.desktop_modal_header{
+		display: block !important;
+	}
+
+	.name_location_mobile{
+		display: none !important;
+	}
+}
+ @media only screen and (min-width: 992px) and (max-width: 1920px){
+     .mobile_clear{
+         display: none;
+    }
+}
+ @media only screen and (min-width: 768px) and (max-width: 1024px){
+   #myModal5 .modal-dialog{
+		    width: 90% !important;
+	}
+
+   .modal_mobile_img{
+         width: 15%;
+         float: left;
+    }
+     .modal_mobile_content{
+         width: 35%;
+         float: left;
+    }
+     .modal_mobile_dropdown{
+         width: 45%;
+         float: left;
+         text-align: right;
+    }
+}
+ @media only screen and (min-width: 768px) and (max-width: 991px){
+     .update_ipad{
+         width: 100%;
+    }
+}
+ @media only screen and (min-width: 320px) and (max-width: 991px){
+     .po_right {
+         padding-right: 15px !important;
+    }
+     .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+         margin: 0 auto;
+    }
+     .box-body {
+         padding-bottom: 30px;
+    }
+}
+ @media only screen and (min-width: 320px) and (max-width: 767px){
+     #myModal .modal-dialog {
+             margin: 3px;
+    }
+     #myModal .modal-content {
+         padding-top: 5px;
+    }
+
+	#myModal_decline .modal-dialog {
+		margin: 3px;
+    }
+
+     .navbar-custom-menu>.navbar-nav>li>.dropdown-menu {
+         right: 0% !important;
+         width: 100% !important;
+    }
+     .link_top_maind a {
+         margin-right: 15px;
+    }
+     #myModall3 .modal_wdith_intro {
+         width: 100% !important;
+         margin-left: 0px;
+    }
+
+     .today_time li {
+         width: 45px !important;
+         height: 30px !important;
+         line-height: 27px !important;
+    }
+     .search_box_tool{
+         right: 55px !important;
+         top: 8px !important;
+    }
+
+
+	#quick_job li a{
+		font-size: 15px !important;
+	}
+}
+ #myModall3 input::-webkit-input-placeholder {
+     color: #000 !important;
+     font-size: 14px;
+     font-weight:bold;
+}
+ #myModall3 input:-moz-placeholder {
+    /* Firefox 18- */
+     color: #000 !important;
+     font-size: 14px;
+     font-weight:bold;
+}
+ #myModall3 input::-moz-placeholder {
+    /* Firefox 19+ */
+     color: #000 !important;
+     font-size: 14px;
+     font-weight:bold;
+}
+ #myModall3 input:-ms-input-placeholder {
+     color: #000 !important;
+     font-size: 14px;
+     font-weight:bold;
+}
+ #myModall3 select{
+     font-size: 14px;
+     font-weight:bold;
+	     background: transparent;
+
+}
+ .bg_selected{
+     background: #42C500;
+}
+ .bg_selected label{
+     color: #fff;
+}
+
+ option{
+     background: #fff;
+     color: #000;
+}
+ .today_time{
+     list-style-type: none;
+     padding: 0px;
+}
+.today_time li {
+    border: 1px solid #3F4A59;
+    margin: 6px 36px;
+    float: left;
+    margin-bottom: 4px;
+    width: 46px;
+    text-align: center;
+    height: 35px;
+    line-height: 32px;
+    color: #000 !important;
+    background-repeat: no-repeat;
+    background-position: 10px 1px;
+}
+ .today_time label{
+     padding: 0px !important;
+}
+ #clone_table td label{
+     font-size: 14px;
+}
+
+ .multiselect-container {
+     box-shadow: 0 3px 12px rgba(0,0,0,.175);
+     margin: 0;
+}
+ .multiselect-container .checkbox {
+     margin: 0;
+}
+ .multiselect-container li {
+     margin: 0;
+     padding: 0;
+     line-height: 0;
+}
+ .multiselect-container li a {
+     line-height: 5px;
+     margin: 0;
+     padding: 0 35px;
+}
+ .caret{
+     float: right;
+     position: relative;
+     top: 8px;
+}
+ .custom-btn {
+     width: 194px !important;
+     box-shadow: none !important;
+     border: none !important;
+}
+ .custom-btn .form-control{
+     border-color: transparent;
+}
+ .custom-btn .form-control:focus {
+     border-color: transparent;
+     outline: 0;
+     -webkit-box-shadow: none !important;
+     box-shadow: none !important;
+}
+ .btn-group.open .dropdown-toggle {
+     -webkit-box-shadow: none !important;
+     box-shadow: none !important;
+     outline: none !important;
+}
+ .custom-btn .btn, .custom-multi {
+     text-align: left;
+     width: 100% !important;
+}
+ .dropdown-menu > .active > a:hover {
+     color:inherit;
+}
+ .multiselect-container{
+     left: 0px !important;
+}
+ .dropdown-background{
+     color: #fff !important;
+     background: #42C500 !important;
+}
+ #myModall3 p{
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+ #myModall3 strong{
+     font-size: 17px;
+}
+ #myModall3{
+     font-size: 16px;
+}
+ #myModal strong{
+     font-size: 18px;
+}
+ #myModal{
+     font-size: 16px;
+}
+ #myModal p{
+     font-size: 13px;
+}
+ #myModal li{
+     font-size: 15px;
+}
+ #myModal_decline{
+     font-size: 16px;
+}
+ #myModal_decline p{
+     font-size: 16px;
+}
+ #myModal_decline li{
+     font-size: 16px;
+}
+
+ .today_time{
+     list-style-type: none;
+     padding: 0px;
+     margin: 0px;
+}
+
+ .today_time label{
+     padding: 0px !important;
+}
+ .today_time label{
+     height: 33px !important;
+     font-size: 13px;
+}
+
+.click_display_time .today_time li {
+    background: #d5d5d5 ;
+    color: #fff;
+}
+
+ @media only screen and (min-width: 1200px) and (max-width: 1920px){
+     .today_time li {
+         margin: 6px 10px 6px 0px !important;
+    }
+}
+ @media only screen and (min-width: 1025px) and (max-width: 1199px){
+     .today_time li {
+         margin: 6px 15px !important;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+     .today_time li {
+         width: 65px !important;
+         height: 30px !important;
+         line-height: 24px !important;
+    }
+
+     .today_time li {
+         margin: 6px 17px !important;
+    }
+
+	.btn_egency{
+		margin-top: 10px;
+	}
+}
+
+#myModal5 .nav-tabs {
+    border-bottom: none;
+}
+
+#myModal5 .panel-default {
+    border-color: #fff;
+    margin: 0px;
+    box-shadow: none;
+}
+
+#myModal5 .panel-default>.panel-heading {
+    background-color: transparent;
+    border-color: transparent;
+	padding: 5px 2px;
+}
+
+.green_bg{
+	background: #42C500 !important;
+}
+
+.custom_label{
+	color: #fff;
+    background-color: #3F4A59;
+    height: 37px;
+    margin: 0px;
+    width: 200px;
+    padding: 7px 10px;
+}
+
+#clone_tabs_li .nav-tabs>li{
+	width: 20%;
+	text-align: center;
+}
+
+.active_annual:visited, .active_annual:active, .active_annual:focus{
+     background: #42C500;
+     color: #fff;
+}
+
+ .multiselect-container {
+
+     box-shadow: 0 3px 12px rgba(0,0,0,.175);
+
+     margin: 0;
+
+}
+
+ .multiselect-container .checkbox {
+
+     margin: 0;
+
+}
+
+ .multiselect-container li {
+
+     margin: 0;
+
+     padding: 0;
+
+     line-height: 0;
+
+}
+
+ .multiselect-container li a {
+		padding-top: 6px;
+ }
+
+ .multiselect-container li a {
+
+     line-height: 25px;
+
+     margin: 0;
+
+     padding:0 5px !important;
+
+}
+
+.multiselect-container li.active>a, .multiselect-container li.active>a:focus, .multiselect-container li.active>a:hover {
+
+    color: #fff;
+
+    text-decoration: none;
+
+    background-color: #42C500 !important;
+
+    outline: 0;
+
+}
+
+.btn-group.open .dropdown-toggle {
+    box-shadow: none !important;
+}
+
+.btn-group.open .dropdown-toggle{
+	background: #42C500;
+	color: #fff;
+}
+
+.custom-btn button {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    height: 39px;
+}
+
+.custom-btn {
+    width: 264px !important;
+    height: 40px;
+    outline: none !important;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1920px){
+	.desktop_clone_table{
+		display: block !important;
+	}
+
+	.mobile_clone_table{
+		display: none !important;
+	}
+
+
+    /*  .fa-info-circle{
+        font-size: 13px;
+        color: #fff;
+    } */
+
+	#myModal_job_header .modal-dialog{
+		width: 80%;
+	}
+
+}
+
+#quick_job{
+	padding: 0px;
+	border-radius: 0px;
+}
+
+#quick_job li{
+	width: 50%;
+    text-align: center;
+}
+
+#quick_job li a{
+	background: #3F4A59;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+	border-radius: 0px;
+}
+
+#quick_job .nav-tabs>li.active>a, #quick_job .nav-tabs>li.active>a:focus, #quick_job .nav-tabs>li.active>a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #42C500;
+    border: 1px solid #42C500;
+    border-bottom-color: transparent;
+}
+ #date_time_tabs .panel-heading{
+	padding: 0px;
+    border: none;
+}
+
+ #date_time_tabs .nav-tabs>li {
+
+     width: 16.6%;
+
+     text-align: center;
+
+}
+
+ #date_time_tabs .nav-tabs>li>a {
+
+     background: #3F4A59;
+
+     color: #fff;
+
+     border: none;
+
+     border-radius: 0px;
+
+}
+
+ #date_time_tabs .panel-default{
+	border-color: white;
+	box-shadow: none;
+	border: none;
+	margin-bottom: 0px;
+}
+
+ #date_time_tabs .panel-body {
+
+     padding: 0px;
+
+}
+
+ #date_time_tabs .nav-tabs>li.active>a, #date_time_tabs .nav-tabs>li.active>a:focus, #date_time_tabs .nav-tabs>li.active>a:hover {
+
+     background: #42C500;
+
+     color: #fff;
+
+}
+
+#tab1default_job table tr td{
+	height: 40px;
+	padding:0px;
+}
+
+#tab2default_job table tr td{
+	height: 40px;
+	padding: 0px;
+}
+
+.popover-title {
+    color: #000;
+}
+
+.popover-content {
+    color: #000;
+}
+
+
+
+/* #tab1default_job input[type=text]{
+	display: block !important;
+}
+
+#tab1default_job input[type=file]{
+	display: block !important;
+} */
+
+/* #tab2default_job input[type=text]{
+	display: block !important;
+}
+
+#tab2default_job input[type=file]{
+	display: block !important;
+} */
+
+
+#date_tabs .panel-heading li a{
+	background: #3F4A59;
+	color: #fff;
+	width: 100%;
+}
+
+#date_tabs .panel-heading li.active a{
+	background: #42C500;
+}
+
+.cal_drp_tab{
+	height: 81px !important;
+    border: 1px solid #3F4A59;
+    border-radius: 4px;
+	margin-right: 0px;
+}
+
+#date_tabs .panel-heading li {
+	    width: 24.3%;
+    text-align: center;
+    margin-right: 1px;
+}
+
+#date_tabs .panel-heading li a{
+	background: #3F4A59;
+	color: #fff;
+	width: 100%;
+}
+
+#date_tabs .panel-heading li.active a{
+	background: #42C500;
+}
+
+
+.btn_quick_popup{
+	border-radius: 30px;
+    width: 170px;
+    font-size: 16px;
+}
+
+#bs-collapse .panel-heading{
+	background: #42C500;
+	text-align: center;
+}
+
+#bs-collapse .panel-body {
+    padding: 5px;
+}
+
+#bs-collapse .panel-body input{
+    border: 1px solid #000;
+    box-shadow: none;
+    padding: 0px 5px;
+    height: 34px;
+    width: 100%;
+}
+
+#bs-collapse .panel-body select{
+    box-shadow: none;
+    height: 34px;
+    width: 100%;
+	border-radius: 0px !important;
+    border: 1px solid #000;
+}
+
+#bs-collapse .custom-btn {
+	width: 100% !important;
+}
+
+#bs-collapse .custom-btn .btn {
+    height: 34px !important;
+    width: 100% !important;
+    border-radius: 0px !important;
+    border: 1px solid #000;
+    box-shadow: none !important;
+}
+
+#bs-collapse .multiselect-container li input {
+    display: none !important;
+}
+
+#bs-collapse .panel-heading a{
+	color: #fff;
+}
+
+#bs-collapse input:checked + label {
+    color: #fff;
+    background: #42C500;
+}
+
+.mobile_input input{
+	display: none !important;
+}
+
+.mobile_input label{
+	height: 34px;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 6px;
+    border: 1px solid #000;
+    text-align: left;
+    font-weight: 400;
+	color: #000;
+	font-size: 14px;
+}
+
+.clear5{
+	clear: both;
+	height: 5px;
+}
+
+#panel_inner_checked .panel-body{
+	padding: 0px;
+}
+
+#hr_mange_time .panel-heading{
+	padding: 0px;
+	background: #fff;
+}
+
+#hr_mange_time .panel-heading li.active a{
+	background: #42C500 !important;
+}
+
+#hr_mange_time .panel-heading li{
+	width: 16.6% !important;
+}
+
+#hr_mange_time .nav-tabs {
+    border-bottom: 0px;
+}
+
+#hr_mange_time .panel-heading li a{
+	background: #3F4A59;
+	border-radius: 0px;
+}
+
+#hr_mange_time_popup .panel-heading{
+	padding: 0px;
+	background: #fff;
+}
+
+#hr_mange_time_popup .panel-heading li.active a{
+	background: #42C500;
+}
+
+#hr_mange_time_popup .panel-heading li{
+	width: 16.6%;
+}
+
+#hr_mange_time_popup .panel-heading li a{
+	background: #3F4A59;
+	border-radius: 0px;
+}
+
+#talent_time_modal .panel-heading{
+	padding: 0px;
+	background: #fff;
+}
+
+#talent_time_modal .panel-heading li.active a{
+	background: #42C500;
+}
+
+#talent_time_modal .panel-heading li {
+    width: 16.6%;
+}
+
+#talent_time_modal .panel-heading li a{
+	background: #3F4A59;
+	border-radius: 0px;
+    padding: 9px 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#request_pop_6 .panel-heading{
+	padding: 0px;
+	background: #fff;
+}
+
+#request_pop_6 .panel-heading li.active a{
+	background: #42C500;
+}
+
+#request_pop_6 .panel-heading li{
+	width: 16.6%;
+}
+
+#request_pop_6 .panel-heading li a{
+	background: #3F4A59;
+	border-radius: 0px;
+}
+
+.clear40{
+	clear: both;
+	height: 40px;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1920px){
+	.desktop_tbl_display{
+		display: block !important;
+	}
+
+	#bs-collapse{
+		display: none !important;
+	}
+
+	.quick_desktop_tbl{
+		display: block !important;
+	}
+
+	.request_desktop_tbl{
+		display: block !important;
+	}
+
+	.recutier_desktop_table select{
+		padding-left: 13px !important;
+	}
+
+	.recutier_desktop_table input[type="date"]{
+		padding-left: 10px !important;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	.recutier_mob_head{
+		width: 54%;
+		float: left;
+	}
+
+	.p0_mobile{
+		padding: 0px !important;
+	}
+
+	#modal_dropdown .dropdown-menu{
+		left: -75px;
+	}
+
+	.recutier_mob_content{
+		width: 75%;
+		float: left;
+		padding: 0px;
+	}
+
+	.recutier_mob_content p{
+		text-align: left;
+	}
+
+	.recutier_mob_toggle{
+		width: 12%;
+		float: left;
+		padding: 0px;
+	}
+
+	.mobile_close_cross{
+		width: 13%;
+		float: left;
+		padding: 0px;
+	}
+
+	.mobile_clearfix{
+		display: block !important;
+		height: 10px;
+		clear: both;
+	}
+
+	.mobile_talent_image{
+		width: 45%;
+		float: left;
+		clear: both;
+	}
+
+	.name_location_mobile{
+		display: block !important;
+	}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px){
+	.create_intro_desktop{display: none !important;}
+	.clone_desktop_buttons{display: none !important;}
+	.clone_mobile_buttons{display: block !important;}
+
+	#detail_popup{
+		width: 100% !important;
+	}
+
+	#talent_time_modal .today_time li {
+		background-size: 65% 88% !important;
+		background-position: 7px 2px !important;
+		margin: 6px 5px;
+	}
+
+
+	.desktop_clone_table{
+		display: none !important;
+	}
+
+	.mobile_clone_table{
+		display: block !important;
+	}
+
+	#hr_mange_time_popup_01 .panel-heading li.active a {
+		background: #42C500;
+
+	}
+
+	#hr_mange_time_popup_01 .panel-heading li a {
+		background: #3F4A59;
+		border-radius: 0px;
+		color :#fff;
+	}
+
+	#bs-collapse select{
+		width: 100%;
+		height: 34px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		-webkit-appearence: none !important;
+		-moz-appearence: none !important;
+		-webkit-background-color: #fff !important;
+		-moz-background-color: #fff !important;
+		-ms-background-color: #fff !important;
+		-webkit-color: #000 !important;
+		-moz-color: #000 !important;
+		-ms-color: #000 !important;
+		background: url(../img/dropdown_arrow.png) no-repeat;
+		background-position: right center;
+		background-color: #fff;
+		-webkit-appearance: none !important;
+		box-shadow: none !important;
+		background-color: #fff !important;
+		border-radius: 0px !important;
+		padding-left: 5px;
+		color: #000 !important;
+		border: 1px solid #000;
+		-moz-appearance: none;
+	}
+
+	#bs-collapse-recutier select{
+		width: 100%;
+		height: 34px;
+		-webkit-appearence: none !important;
+		-moz-appearence: none !important;
+		-webkit-background-color: #fff !important;
+		-moz-background-color: #fff !important;
+		-ms-background-color: #fff !important;
+		-webkit-color: #000 !important;
+		-moz-color: #000 !important;
+		-ms-color: #000 !important;
+		background: url(../img/dropdown_arrow.png) no-repeat;
+		background-position: right center;
+		background-color: #fff;
+		-webkit-appearance: none !important;
+		box-shadow: none !important;
+		background-color: #fff !important;
+		border-radius: 0px !important;
+		padding-left: 5px;
+		border: 1px solid #000;
+		-moz-appearance: none;
+	}
+
+	#bs-collapse-recutier input{
+		border-radius: 0px !important;
+	}
+
+	#bs-collapse input[type=text], input[type=email], input[type=password]{
+		border-radius: 0px !important;
+	}
+
+	#myModall3 select{
+		width: 100%;
+		height: 34px;
+
+		margin-bottom: 10px;
+		border-radius: 0px !important;
+		border: 1px solid #000;
+		padding-left: 5px;
+		font-weight: 400;
+	}
+
+	#bs-collapse-recutier .mobile_input_perm{
+		margin-bottom: 10px !important;
+	}
+
+	.recutier_desktop_table{
+		display: none !important;
+	}
+
+	.recutier_mobile_tab{
+		display: block !important;
+	}
+
+	.btn_quick_mobile {
+		width: 49%;
+		height: 34px;
+		border-radius: 10px;
+		font-size: 14px;
+		padding: 4px 0px;
+		margin-bottom: 10px;
+	}
+
+	.tick_specialism_mobile{
+		position: relative;
+		color: #42C500;
+		float: right;
+		display: table;
+		margin-top: -29px;
+		margin-bottom: 0;
+		margin-left: 0;
+		margin-right: 23px;
+	}
+
+	.bootstrap-select.btn-group .dropdown-toggle .caret {
+		right: 5px !important;
+	}
+
+	.bootstrap-select .dropdown-toggle{
+		padding-left: 4px !important;
+	}
+
+	.bootstrap-select{
+		width: 100% !important;
+	}
+
+	.bootstrap-select .dropdown-toggle{
+		border: 1px solid #000 !important;
+		height: 34px !important;
+		width: 100% !important;
+		font-weight: 400;
+	}
+
+	.filter-option{
+		font-weight: 400;
+	}
+
+	#bs-collapse .today_time li {
+		background-size: 65% 88% !important;
+		background-position: 7px 2px !important;
+		 margin: 6px 5px;
+	}
+
+	#date_tabs .panel-heading li a {
+		padding: 4px 6px !important;
+	}
+
+	.desktop_tbl_display{
+		display: none !important;
+	}
+
+	#bs-collapse{
+		display: block !important;
+	}
+
+	.quick_desktop_tbl{
+		display: none !important;
+	}
+
+	.request_desktop_tbl{
+		display: none !important;
+	}
+
+
+	#date_tabs .panel-heading li {
+		margin-right: 2px;
+	}
+
+	.main-header .navbar .nav>li>a>.label {
+		top: 2px;
+		right: 2px;
+	}
+
+	#bs-collapse .custom-btn .btn{
+		font-weight: 500;
+		padding-left: 5px;
+	}
+
+	#hr_mange_time_popup_01 .today_time li {
+		background-size: 65% 88% !important;
+		background-position: 7px 2px !important;
+		margin: 6px 5px;
+	}
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+	#button_checked label {
+		padding: 9px 4px;
+		/* font-size: 11px; */
+		line-height: 22px;
+	}
+
+	#button_checked select {
+		padding: 9px 4px;
+		/* font-size: 11px; */
+		line-height: 22px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	.btn_quick_mobile{
+		margin-bottom: 10px;
+	}
+
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px){
+	.btn_quick_mobile{
+		margin-bottom: 10px !important;
+	}
+
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	#myModal5 .modal-dialog{
+		margin: 3px;
+	}
+
+
+	#hr_mange_time .today_time li {
+		margin: 6px 6px 6px 0px !important;
+		width: 38px !important;
+	}
+
+	#hr_mange_time .today_time label {
+		height: 33px !important;
+		font-size: 12px;
+		font-weight: 100;
+	}
+
+	#hr_mange_time_popup .today_time li {
+		margin: 6px 4px !important;
+		width: 41px !important;
+	}
+
+	#hr_mange_time_popup .today_time label {
+		height: 33px !important;
+		font-size: 13px;
+		    line-height: 28px;
+	}
+
+	#talent_time_modal .today_time li {
+		margin: 6px 3px !important;
+		width: 38px !important;
+	}
+
+	#talent_time_modal .today_time label {
+		height: 33px !important;
+		font-size: 12px;
+		font-weight: 100;
+	}
+
+	#request_pop_6 .today_time li {
+		margin: 6px 4px !important;
+		width: 41px !important;
+	}
+
+	#request_pop_6 .today_time label {
+		height: 33px !important;
+		font-size: 13px;
+		line-height: 28px;
+	}
+
+	#myModal_job_header .panel-body{
+		padding: 5px 0px !important;
+	}
+
+	#myModal_job_header .modal-body{
+		padding: 0px;
+	}
+
+	.mobile_modal_header{
+		display: block !important;
+	}
+
+	.desktop_modal_header{
+		display: none !important;
+	}
+
+	#hr_mange_time_popup_01 {
+		padding: 0px;
+	}
+
+	#hr_mange_time_popup_01 .panel-body{
+		padding: 0px;
+	}
+
+	#hr_mange_time_popup_01 .today_time li {
+		margin: 6px 4px !important;
+		width: 38px !important;
+	}
+
+	#hr_mange_time_popup_01 .today_time label {
+		height: 33px !important;
+		font-size: 12px;
+		font-weight: 100;
+	}
+}
+
+#remove_phone_color input:checked + label {
+    color: #000 !important;
+    background: transparent !important;
+}
+
+#date_time_tabs .today_time li input:checked + label {
+    color: #000 !important;
+    background: transparent !important;
+}
+
+#bs-collapse .today_time input:checked + label {
+    color: #000 !important;
+    background: transparent !important;
+}
+
+.fa-angle-down{
+	float: right;
+}
+
+.key_panel{
+	color: #fff;
+}
+
+#bs-collapse-recutier input[type=button]{
+ width: 22px !important;
+    height: 22px !important;
+    border: 2px solid #D0D2D3 !important;
+    border-radius: 30px !important;
+    font-size: 20px;
+    line-height: 0px;
+    color: #D0D2D3 !important;
+    background: #fff !important;
+    margin-top: 6px;
+    font-weight: bold;
+    padding-left: 4px !important;
+    padding-top: 0px !important;
+    margin-right: 3px;
+}
+
+input[type=button]{
+	width: 22px !important;
+    height: 22px !important;
+    border: 2px solid #D0D2D3 !important;
+    border-radius: 30px;
+    font-size: 20px;
+    line-height: 0px;
+    color: #D0D2D3 !important;
+    background: #fff !important;
+    margin-top: 6px;
+    font-weight: bold;
+    padding-left: 4px !important;
+    padding-top: 0px !important;
+    margin-right: 3px;
+}
+
+.fieldwrapper input{
+	margin-bottom: 10px;
+}
+
+.fieldwrapper input[type=text]{
+	width: 80% !important;
+	margin-right: 5px !important;
+}
+
+#date_tabs {
+    border-color: #fff;
+    box-shadow: none;
+}
+
+
+.btn_quick_mobile {
+    background: #3F4A59 !important;
+    border-color : #3F4A59 !important;
+}
+
+.bootstrap-select .dropdown-toggle{
+	border: none;
+    box-shadow: none !important;
+    background: none;
+    font-weight: bold;
+    height: 39px;
+    padding-top: 7px !important;
+    border-radius: 0px;
+    padding-right: 50px !important;
+}
+
+.bootstrap-select .dropdown-menu{
+	width: 265px !important;
+}
+
+.bootstrap-select .dropdown-toggle:focus, .bootstrap-select .dropdown-toggle:active, .bootstrap-select .dropdown-toggle:visited {
+    background: #42C500 !important;
+	color: #fff !important;
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .caret {
+    color: #000;
+}
+
+
+.glyphicon-ok:before {
+    float: right;
+    position: absolute;
+    top: -2px;
+}
+
+.filter-option{
+	font-family:'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+.table_new_talent{
+ margin-top: 15px;
+}
+
+.bootstrap-select .fa-check:before {
+    position: absolute;
+	color: #42c500;
+	right: -22px;
+}
+
+.fa-check:before {
+    color: #42c500;
+}
+
+#bs-collapse input::-webkit-input-placeholder {
+	font-size: 14px;
+	color: #000;
+}
+
+#bs-collapse input:-moz-placeholder { /* Firefox 18- */
+	font-size: 14px;
+	color: #000;
+}
+
+#bs-collapse input::-moz-placeholder {  /* Firefox 19+ */
+	font-size: 14px;
+	color: #000;
+}
+
+#bs-collapse input:-ms-input-placeholder {
+	font-size: 14px;
+	color: #000;
+}
+
+#panel_inner_checked{
+	box-shadow: none !important;
+}
+
+#myModall3 .close{
+	    font-size: 40px;
+    opacity: 1;
+    font-weight: 100;
+    margin-top: 0px !important;
+	position: relative;
+}
+
+
+
+#bs-collapse-recutier .panel-heading{
+	background: #42C500;
+	text-align: center;
+	padding: 0px;
+}
+
+#bs-collapse-recutier .panel-body {
+    padding: 5px;
+}
+
+#bs-collapse-recutier .panel-body input{
+    border: 1px solid #000;
+    box-shadow: none;
+    padding: 0px 5px;
+    height: 34px;
+    width: 100%;
+}
+
+#bs-collapse-recutier .panel-body select{
+    box-shadow: none;
+    height: 34px;
+    width: 100%;
+	border-radius: 0px !important;
+    border: 1px solid #000;
+}
+
+#bs-collapse-recutier .custom-btn {
+	width: 100% !important;
+}
+
+#bs-collapse-recutier .custom-btn .btn {
+    height: 34px !important;
+    width: 100% !important;
+    border-radius: 0px !important;
+    border: 1px solid #000;
+    box-shadow: none !important;
+}
+
+#bs-collapse-recutier .multiselect-container li input {
+    display: none !important;
+}
+
+#bs-collapse-recutier .panel-heading a{
+	color: #fff;
+	    padding-top: 10px;
+}
+
+
+
+#detail_popup {
+    background: #3F4A59;
+    color: #fff;
+    padding: 6px 0px;
+    border-radius: 4px;
+    width: 260px;
+    cursor: pointer;
+    text-align: center;
+    height: 40px;
+}
+
+#button_checked input[type=search] {
+	display: block !important;
+}
+
+
+
+.table-hover>thead>tr:hover{
+	background: #f5f5f5 !important;
+	z-index: 999999;
+}
+
+.table-hover>thead>tr:hover .td_1_green_label{
+    background-color: transparent !important;
+}
+
+/* .table-hover>thead>tr:hover label{
+    color: #000 !important;
+} */
+
+.table-hover>thead>tr:hover .fa-info-circle{
+    color: #000 !important;
+}
+
+.table-hover>tbody>tr:hover .fa-info-circle{
+    color: #000 !important;
+}
+
+.table-hover>tbody>tr:hover .custom-btn .btn{
+    background: #f5f5f5 !important;
+	color: #000;
+}
+
+
+.table-hover>thead>tr:hover select{
+    background-color: transparent !important;
+}
+
+.table-hover>thead>tr:hover input{
+    background-color: transparent !important;
+}
+
+.table-hover>tbody>tr:hover input{
+    background-color: transparent !important;
+}
+
+.table-hover>tbody>tr:hover {
+    background-color: #f5f5f5 !important;
+	color: #000 !important;
+	cursor: pointer;
+	}
+
+.table-hover>tbody>tr:hover .td_1_green_label label{
+    background-color: #f5f5f5 !important;
+	color: #000 !important;
+	cursor: pointer;
+}
+
+#bs-collapse-recutier input::-webkit-input-placeholder {
+	font-weight: 400;
+}
+
+#bs-collapse-recutier input:-moz-placeholder { /* Firefox 18- */
+	font-weight: 400;
+}
+
+#bs-collapse-recutier input::-moz-placeholder {  /* Firefox 19+ */
+	font-weight: 400;
+}
+
+#bs-collapse-recutier input:-ms-input-placeholder {
+	font-weight: 400;
+}
+
+#hr_mange_time_popup_01 .panel-heading li {
+    width: 16.6%;
+}
+
+#checked_me_1 input:checked + label {
+    color: #fff;
+    background: #42C500;
+}
+
+
+#checked_me input:checked + label {
+    color: #fff;
+    background: #42C500;
+}
+
+.green_hover:hover {
+    background: #42C500 !important;
+    /* color: #fff !important; */
+}
+
+.table-hover>thead>tr .green_hover .fa-info-circle{
+    color: #000 !important;
+}
+
+.table-hover>tbody>tr .green_hover:hover label{
+    color: #fff !important;
+}
+
+.table-hover>tbody>tr .green_hover:hover label .fa-info-circle{
+    color: #fff !important;
+}
+
+.green_hover .popover-content {
+    padding: 5px;
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 3000px){
+	#intro_builder_table{
+		display: block !important;
+	}
+
+	#mobile_button{
+		display: none !important;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px){
+	#intro_builder_table{
+		display: none !important;
+	}
+
+	#mobile_button{
+		display: block !important;
+	}
+
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px){
+	.modal_mobile_img{
+        width: 10%;
+		float: left;
+		padding: 0px;
+    }
+
+	.modal_mobile_content{
+		width: 20%;
+		float: left;
+		padding: 0px;
+    }
+
+	.modal_mobile_dropdown{
+		width: 15%;
+		float: left;
+		text-align: right;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px){
+	.modal_mobile_img{
+        width: 12%;
+		float: left;
+		padding: 0px;
+    }
+
+	.modal_mobile_content{
+		width: 27%;
+		float: left;
+		padding: 0px;
+    }
+
+	.modal_mobile_dropdown{
+		width: 25%;
+		float: left;
+		text-align: right;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+	.modal_mobile_img{
+        width: 18%;
+		float: left;
+		padding: 0px;
+    }
+
+	.modal_mobile_content{
+		width: 40%;
+		float: left;
+		padding: 0px;
+    }
+
+	.modal_mobile_dropdown{
+		width: 85%;
+		float: left;
+		text-align: right;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	.btn_candidate{
+		width: 100px;
+		margin-bottom: 10px;
+	}
+}
+
+@media only screen and (min-width: 415px) and (max-width: 1024px){
+	.button_intro_builder{
+		width: 48%;
+		float: left;
+		margin-right: 7px;
+	}
+}
+
+@media only screen and (min-width: 415px) and (max-width: 767px){
+	.modal_12_location{
+		width: 55%;
+		float: left;
+		padding-right: 0px;
+	}
+	.modal_12_bullet{
+		width: 45%;
+		float: left;
+		padding: 0px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 940px){
+	.modal_intro_location{
+		width: 55%;
+		float: left;
+		padding-right: 0px;
+	}
+	.modal_intro_bullet{
+		width: 45%;
+		float: left;
+	}
+
+	.modal_point_bullet{
+		width: 100%;
+		clear: both;
+	}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px){
+	.modal_intro_location{
+		width: 33%;
+		float: left;
+		padding-right: 0px;
+	}
+	.modal_intro_bullet{
+		width: 29%;
+		float: left;
+	}
+
+	.modal_point_bullet{
+		width: 38%;
+		float: left;
+	}
+}
+
+@media only screen and (min-width: 415px) and (max-width: 600px){
+	.modal_intro_location{
+		width: 55%;
+		float: left;
+		padding-right: 0px;
+	}
+	.modal_intro_bullet{
+		width: 45%;
+		float: left;
+	}
+
+	.modal_point_bullet{
+		width: 100%;
+		clear: both;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	#myModal_job_detail_edit .modal-dialog{
+		margin: 3px;
+	}
+
+	.detail_modal_button{
+		width: 43%;
+		float: left;
+		padding: 0px;
+	}
+
+	.detail_modal_head{
+		padding: 0px;
+		width: 40%;
+		float: left;
+	}
+
+	.intro_builder{
+		width: 75%;
+		float: left;
+		padding: 0px;
+	}
+}
+
+#mobile_button input[type=checkbox]{
+	display: none;
+}
+
+#mobile_button input:checked + label {
+    color: #fff;
+    background: #42C500;
+}
+
+#mobile_button label {
+    transition: 0.25s ease;
+    padding: 9px 10px;
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+	text-align: center;
+}
+
+#myModa_intro_edit input{
+	border: none;
+	outline: none;
+}
+
+.bullet_input{
+	width: 100%;
+}
+
+.modal{
+	overflow-y: auto !important;
+}
+
+#myModal_job_detail_edit input {
+	border: none;
+    border-bottom: 1px solid #d2d6de;
+    border-radius: 0px;
+}
+
+#myModal_job_detail_edit .form-group label {
+	display: block;
+	margin-top: 9px;
+}
+
+#myModal_job_detail_edit select {
+	border: none;
+    border-bottom: 1px solid #d2d6de;
+    border-radius: 0px;
+}
+
+.fetch_detail:hover {
+    background: #3F4A59;
+    border: 1px solid #3F4A59;
+    color: #fff;
+    transition: 0.7s;
+}
+
+.fetch_detail{
+	background: #fff;
+    border: 1px solid #fff;
+    color: #3F4A59;
+    padding: 8px 15px;
+    float: right;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 1px;
+}
+
+#myModal .modal-header{
+	padding: 10px 15px;
+}
+
+.collapse_heading{
+	border: 2px solid #42C500;
+	padding: 2px 10px;
+	border-radius: 5px;
+	text-align: center;
+	background: #42C500;
+	color: #fff;
+	cursor: pointer;
+}
+
+.job_padd_left{
+	padding-left: 0px;
+}
+
+.candidate_info_tab label{
+	font-size: 15px;
+}
+
+.btn_candidate{
+	width: 125px;
+}
+
+.btn_candidate:hover{
+	background: #fff;
+    border: 1px solid #DDDDDD;
+    transition: 0.7s;
+}
+
+#myModal ul{
+	list-style-type: none;
+	padding:0px;
+}
+
+.intro_candidate{
+	background:#f4f6f6;
+	padding:5px 0px !important;
+	margin: 0px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.points_setting h3 {
+	margin-top: 5px;
+    background: #f4f6f6;
+    border-radius: 3px;
+    padding: 7px 10px 9px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.btn_accept_intro{
+	border-radius: 30px;
+	width: 150px;
+}
+
+.btn_accept_intro:hover{
+	transition: 0.7s;
+}
+
+.btn_hold_intro{
+	border-radius: 30px;
+	width: 150px;
+	background: #F6B26B;
+	color: #fff;
+	border: 1px solid #F6B26B;
+}
+
+.btn_hold_intro:hover{
+	background: #fff;
+	border: 1px solid #F6B26B;
+	color: #F6B26B;
+	transition: 0.7s;
+}
+
+.btn_decline_intro{
+	border-radius: 30px; width: 150px; background: #DD4B39; color: #fff; border: 1px solid #DD4B39;
+}
+
+.btn_decline_intro:hover{
+	background: #fff;
+	border: 1px solid #DD4B39;
+	color: #DD4B39;
+	transition: 0.7s;
+}
+
+.links_cv a{
+	text-decoration: underline;
+    color: #4C8BF5;
+    font-weight: bold;
+}
+
+.links_cv{
+	border-bottom: 1px solid #f4f4f4;
+	padding: 10px 0px;
+}
+
+#myModal .modal-header{
+	background: #768292;
+}
+
+#myModal5 .modal-header{
+	background: #768292;
+}
+
+
+
+
+#myModal5 .modal-header .product-info, #myModal5 .modal-header .product-info a {
+	color: #fff;
+}
+
+#myModal .close{
+	font-size: 40px;
+    opacity: 1;
+    color: #fff;
+    font-weight: 100;
+    margin-top: -9px;
+    height: 40px;
+	outline: none !important;
+	position: relative;
+}
+
+#myModal5 .close{
+	font-size: 40px;
+    opacity: 1;
+    color: #fff;
+    font-weight: 100;
+    margin-top: -9px;
+    height: 40px;
+	outline: none !important;
+	position: relative;
+}
+
+#myModall3 .modal-header p, #myModall3 .modal-header h4, #myModall3 .modal-header span{
+	color: #fff;
+}
+
+#myModall3 .modal-header h2{
+	color: #fff;
+}
+
+#myModall3 .modal-header {
+    padding: 10px 15px;
+	background: #768292;
+}
+
+#myModall3 .close{
+	font-size: 40px;
+    opacity: 1;
+    color: #fff;
+    font-weight: 100;
+    margin-top: -5px !important;
+    height: 40px;
+	outline: none !important;
+	position: relative;
+}
+
+#myModal2 .close{
+	font-size: 40px;
+    opacity: 1;
+    color: #fff;
+    font-weight: 100;
+    height: 40px;
+	outline: none !important;
+	position: relative;
+}
+
+#myModal2 .modal-header {
+    padding: 10px 15px;
+	background: #768292;
+}
+
+#myModal2 .modal-header h2{
+	color: #fff;
+    font-size: 25px !important;
+    font-weight: 700 !important;
+}
+
+
+
+#myModal_job_detail_edit .close{
+	font-size: 40px;
+    opacity: 1;
+    color: #fff;
+    font-weight: 100;
+    margin-top: -1px;
+    height: 40px;
+    outline: none !important;
+	position: relative;
+}
+
+
+
+#myModal_job_detail_edit .modal-header h2{
+	color:#fff;
+	margin-top: 4px;
+}
+
+#myModal_job_detail_edit .modal-header {
+    padding: 5px 15px;
+	background: #768292;
+}
+
+
+.close:hover{
+    opacity: 1;
+    color: #fff;
+}
+
+#myModal .intro_builder{
+	padding: 0px;
+}
+
+#myModal .modal-header h2{
+	color: #fff;
+}
+
+#myModal .modal-footer{
+	text-align: left;
+	padding: 0px;
+}
+
+
+@media only screen and (min-width: 1025px) and (max-width: 3000px){
+	.responsible_padd_left{padding-left: 0px;}
+	.responsible_padd_right{padding-right: 0px;}
+}
+
+#myModal_job_detail_edit .form-group {
+  display: block;
+  margin-bottom: 0px;
+}
+
+#myModal_job_detail_edit .form-group input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+#myModal_job_detail_edit .form-group label {
+  position: relative;
+  cursor: pointer;
+}
+
+#myModal_job_detail_edit .form-group label:before {
+	content: '';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1px solid #3F4A59;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+#myModal_job_detail_edit .form-group input:checked + label:after {
+	    content: '';
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    width: 6px;
+    height: 13px;
+    border: solid #42C500;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+#myModal5 .dropdown-menu {
+    padding: 0px;
+    left: inherit;
+    right: 10px;
+}
+
+#myModal5 .dropdown-menu a:hover{
+	background-color: #e1e3e9;
+    color: #333;
+}
+
+#myModal5 .dropdown a, .dropdown a:visited{
+	color: #000;
+    text-decoration: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 3px 20px;
+}
+
+#myModal_job_detail_edit .modal-body{
+	padding: 0px 15px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	.checkbox_mobile_responsible{
+		width: 7%;
+		float: left;
+		padding: 0px;
+	}
+
+	.checkbox_input_responsible{
+		width: 93%;
+		float: left;
+	}
+
+	#myModall3 .p0_mobile{
+		padding-left: 5px !important;
+		padding-right: 0px !important;
+	}
+
+	.btn_candidate {
+		width: 105px !important;
+	}
+
+	#demo .btn_candidate{
+		width: 125px !important;
+	}
+
+	#myModal_job_detail_edit .modal-dialog{
+		width: 99% !important;
+		margin: 30px 4px;
+	}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 3000px){
+	#myModal5 .modal_mobile_dropdown{
+		padding-right: 0px;
+		text-align: right;
+	}
+
+	.checkbox_mobile{
+		padding-left: 30px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px){
+	#myModal .modal-dialog{width:95% !important;}
+	#myModal_decline .modal-dialog{width:95% !important;}
+}
+
+@media only screen and (min-width: 415px) and (max-width: 813px){
+	.recutier_mob_head{
+		padding: 0px;
+	}
+}
+
+@media only screen and (min-width: 415px) and (max-width: 767px){
+	.person_modal_mobile{
+		width: 50%;
+		float: left;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+	#myModal5 .dropdown-menu {
+		right: -20px !important;
+		float: right !important;
+		left: inherit !important;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	.checkbox_mobile{
+		width: 13%;
+		float: left;
+		padding-right: 0px;
+	}
+
+	.checkbox_input{
+		width: 87%;
+		float: left;
+	}
+
+	.checkbox_mobile_responsible{
+		width: 13%;
+		float: left;
+		padding-left: 0px;
+	}
+
+	.checkbox_input_responsible{
+		width: 87%;
+		float: left;
+	}
+
+	#myModal_job_detail_edit .modal-body{
+		padding: 15px 5px;
+	}
+}
+
+.checkbox_input{
+	padding-left: 0px;
+    text-align: right;
+}
+
+#talent_mobile_input input:checked + label {
+    color: #fff;
+    background: #42C500;
+}
+#talent_mobile_input label {
+    transition: 0.25s ease;
+    padding: 9px 10px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+#myModal_decline p {
+    font-size: 13px;
+}
+
+#myModal_decline li {
+    font-size: 15px;
+}
+
+#myModal_decline ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#myModal_decline .modal-header {
+    background: #768292;
+	padding: 10px 15px;
+}
+
+#myModal_decline .modal-header h2 {
+    color: #fff;
+}
+
+#myModal_decline .close {
+    font-size: 40px;
+    opacity: 1;
+    color: #fff;
+    font-weight: 100;
+    margin-top: -9px;
+    height: 40px;
+    outline: none !important;
+	position: relative;
+}
+
+
+@media only screen and (max-width: 1920px) and (min-width: 1025px){
+	#myModal_decline .modal-dialog {
+		width: 72% !important;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1920px){
+	.talent_desktop_view{
+		display: block !important;
+	}
+
+	.talent_mobile_view{
+		display: none !important;
+	}
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	.talent_desktop_view{
+		display: none !important;
+	}
+
+	.talent_mobile_view{
+		display: block !important;
+	}
+}
+
+.clone_table_heading h2{
+	margin: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    background: #f4f6f6;
+    color: #000 !important;
+    padding: 6px 5px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+#clone_table_main label {
+	margin: 0px;
+    line-height: 27px;
+}
+
+#clone_table_main .event_client_price {
+	border: 1px solid #000;
+	height: 29px;
+}
+
+#clone_table_main .event_active{
+	background: #42C500 !important;
+	color: #fff !important;
+}
+
+#clone_table_main .event_client_pbox{
+	display: grid;
+    grid-template-columns: 65fr 60fr 60fr 65fr;
+    grid-gap: 10px;
+}
+
+#full_width_label .event_client_pbox{
+	grid-template-columns: 20fr 59fr;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px){
+	#clone_table_main .event_client_pbox {
+		display: contents;
+	}
+
+	#clone_table_main .event_client_price {
+		margin-bottom: 10px;
+	}
+
+	.overflow_ellipsis{
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+}
+
+#myModal5 .panel-heading li {
+    width: 16.6%;
+    text-align: center;
+}
+
+#date_picker{
+	padding-left:5px;
+	height:34px;
+	width: 100%;
+	border:1px solid #000;
+}
+
+#myModall3 select{
+	box-shadow: none !important;
+    color: #4c4c4c !important;
+    width: 100% !important;
+    background: url(../img/dropdown_arrow.png) no-repeat !important;
+    background-color: transparent !Important;
+    background-position: right center !important;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    border-radius: 0px !important;
+}
+
+.btn_mrg_right{
+	margin-right: 5px;
+}
+
+.talent_popup_buttons button{
+	margin: 5px 0px;
+}
+
+#current_search_status ul{
+	padding: 0px;
+	list-style-type: none;
+}
+
+#current_search_status ul li label{
+	padding: 9px 5px !important;
+}
+
+#current_search_status ul li{
+	width: 20%;
+    float: left;
+    border-right: 1px solid #f4f4f4;
+}
+
+#current_search_status ul li:nth-child(5n){
+    border-right: none !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px){
+	.flexible_pay_tick {
+		position: relative;
+		color: #42C500;
+		float: right;
+		display: table;
+		margin-top: 2px;
+		margin-bottom: 0;
+		margin-left: 0;
+		margin-right: 12px;
+		font-size: 16px;
+	}
+
+	#target_flexible_pay{
+		display: none;
+	}
+}
+
+#everyday_meeting .close,
+#meeting_today .close,
+#meeting_tomorrow .close,
+#meeting_wednesday .close,
+#meeting_thursday .close,
+#meeting_friday .close {
+    font-size: 40px;
+    opacity: 1;
+    color: #fff;
+    font-weight: 100;
+    margin-top: -4px;
+    height: 40px;
+    outline: none !important;
+	position: relative;
+}
+
+#everyday_meeting .modal-header h2,
+#meeting_today .modal-header h2,
+#meeting_thursday .modal-header h2,
+#meeting_wednesday .modal-header h2,
+#meeting_friday .modal-header h2,
+#meeting_tomorrow .modal-header h2 {
+    color: #fff;
+    font-size: 24px;
+}
+
+#everyday_meeting .modal-header,
+#meeting_today .modal-header,
+#meeting_tomorrow .modal-header,
+#meeting_wednesday .modal-header,
+#meeting_thursday .modal-header,
+#meeting_friday .modal-header  {
+    padding: 10px 15px;
+    background: #768292;
+}
+
+#clone_meeting_everyday .close,
+#clone_meeting_today .close,
+#clone_meeting_tomorrow .close,
+#clone_meeting_wednesday .close,
+#clone_meeting_thursday .close,
+#clone_meeting_friday .close {
+    font-size: 40px;
+    opacity: 1;
+    color: #fff;
+    font-weight: 100;
+    margin-top: -4px;
+    height: 40px;
+    outline: none !important;
+	position: relative;
+}
+
+#clone_meeting_everyday .modal-header h2,
+#clone_meeting_today .modal-header h2,
+#clone_meeting_thursday .modal-header h2,
+#clone_meeting_wednesday .modal-header h2,
+#clone_meeting_friday .modal-header h2,
+#clone_meeting_tomorrow .modal-header h2 {
+    color: #fff;
+    font-size: 24px;
+}
+
+#clone_meeting_everyday .modal-header,
+#clone_meeting_today .modal-header,
+#clone_meeting_tomorrow .modal-header,
+#clone_meeting_wednesday .modal-header,
+#clone_meeting_thursday .modal-header,
+#clone_meeting_friday .modal-header  {
+    padding: 10px 15px;
+    background: #768292;
+}
+
+#create_intro_meeting_everyday .close,
+#create_intro_meeting_today .close,
+#create_intro_meeting_tomorrow .close,
+#create_intro_meeting_wednesday .close,
+#create_intro_meeting_thursday .close,
+#create_intro_meeting_friday .close {
+    font-size: 40px;
+    opacity: 1;
+    color: #fff;
+    font-weight: 100;
+    margin-top: -4px;
+    height: 40px;
+    outline: none !important;
+	position: relative;
+}
+
+#create_intro_meeting_everyday .modal-header h2,
+#create_intro_meeting_today .modal-header h2,
+#create_intro_meeting_thursday .modal-header h2,
+#create_intro_meeting_wednesday .modal-header h2,
+#create_intro_meeting_friday .modal-header h2,
+#create_intro_meeting_tomorrow .modal-header h2 {
+    color: #fff;
+    font-size: 24px;
+}
+
+#create_intro_meeting_everyday .modal-header,
+#create_intro_meeting_today .modal-header,
+#create_intro_meeting_tomorrow .modal-header,
+#create_intro_meeting_wednesday .modal-header,
+#create_intro_meeting_thursday .modal-header,
+#create_intro_meeting_friday .modal-header  {
+    padding: 10px 15px;
+    background: #768292;
+}
+
+@media only screen and (max-width: 3000px) and (min-width: 1200px){
+	#myModall3 .modal_wdith_intro {
+         width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 1025px){
+	#myModall3 .modal_wdith_intro {
+         width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px){
+	#everyday_meeting .today_time li,
+	#meeting_today .today_time li,
+	#meeting_tomorrow .today_time li,
+	#meeting_wednesday .today_time li,
+	#meeting_thursday .today_time li,
+	#meeting_friday .today_time li {
+		margin: 6px 4px !important;
+		width: 41px !important;
+	}
+
+	#everyday_meeting .today_time label,
+	#meeting_today .today_time label,
+	#meeting_tomorrow .today_time label,
+	#meeting_wednesday .today_time label,
+	#meeting_thursday .today_time label,
+	#meeting_friday .today_time label {
+		height: 33px !important;
+		font-size: 13px;
+	}
+
+	#everyday_meeting .modal-body,
+	#meeting_today .modal-body,
+	#meeting_tomorrow .modal-body,
+	#meeting_wednesday .modal-body,
+	#meeting_thursday .modal-body,
+	#meeting_friday .modal-body  {
+		padding: 15px 0px;
+	}
+
+	#clone_meeting_everyday .today_time li,
+	#clone_meeting_today .today_time li,
+	#clone_meeting_tomorrow .today_time li,
+	#clone_meeting_wednesday .today_time li,
+	#clone_meeting_thursday .today_time li,
+	#clone_meeting_friday .today_time li {
+		margin: 6px 4px !important;
+		width: 41px !important;
+	}
+
+	#clone_meeting_everyday .today_time label,
+	#clone_meeting_today .today_time label,
+	#clone_meeting_tomorrow .today_time label,
+	#clone_meeting_wednesday .today_time label,
+	#clone_meeting_thursday .today_time label,
+	#clone_meeting_friday .today_time label {
+		height: 33px !important;
+		font-size: 13px;
+	}
+
+	#clone_meeting_everyday .modal-body,
+	#clone_meeting_today .modal-body,
+	#clone_meeting_tomorrow .modal-body,
+	#clone_meeting_wednesday .modal-body,
+	#clone_meeting_thursday .modal-body,
+	#clone_meeting_friday .modal-body  {
+		padding: 15px 0px;
+	}
+
+	#create_intro_meeting_everyday .today_time li,
+	#create_intro_meeting_today .today_time li,
+	#create_intro_meeting_tomorrow .today_time li,
+	#create_intro_meeting_wednesday .today_time li,
+	#create_intro_meeting_thursday .today_time li,
+	#create_intro_meeting_friday .today_time li {
+		margin: 6px 4px !important;
+		width: 41px !important;
+	}
+
+	#create_intro_meeting_everyday .today_time label,
+	#create_intro_meeting_today .today_time label,
+	#create_intro_meeting_tomorrow .today_time label,
+	#create_intro_meeting_wednesday .today_time label,
+	#create_intro_meeting_thursday .today_time label,
+	#create_intro_meeting_friday .today_time label {
+		height: 33px !important;
+		font-size: 13px;
+	}
+
+	#create_intro_meeting_everyday .modal-body,
+	#create_intro_meeting_today .modal-body,
+	#create_intro_meeting_tomorrow .modal-body,
+	#create_intro_meeting_wednesday .modal-body,
+	#create_intro_meeting_thursday .modal-body,
+	#create_intro_meeting_friday .modal-body  {
+		padding: 15px 0px;
+	}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 320px){
+	#everyday_meeting .modal-dialog,
+	#meeting_today .modal-dialog,
+	#meeting_tomorrow .modal-dialog,
+	#meeting_wednesday .modal-dialog,
+	#meeting_thursday .modal-dialog,
+	#meeting_friday .modal-dialog {
+		top: 22% !important;
+	}
+
+	#everyday_meeting .today_time li,
+	#meeting_today .today_time li,
+	#meeting_tomorrow .today_time li,
+	#meeting_wednesday .today_time li,
+	#meeting_thursday .today_time li,
+	#meeting_friday .today_time li  {
+		background-size: 65% 88% !important;
+		background-position: 7px 2px !important;
+		margin: 6px 5px;
+	}
+
+	#clone_meeting_everyday .modal-dialog,
+	#clone_meeting_today .modal-dialog,
+	#clone_meeting_tomorrow .modal-dialog,
+	#clone_meeting_wednesday .modal-dialog,
+	#clone_meeting_thursday .modal-dialog,
+	#clone_meeting_friday .modal-dialog {
+		top: 22% !important;
+	}
+
+	#clone_meeting_everyday .today_time li,
+	#clone_meeting_today .today_time li,
+	#clone_meeting_tomorrow .today_time li,
+	#clone_meeting_wednesday .today_time li,
+	#clone_meeting_thursday .today_time li,
+	#clone_meeting_friday .today_time li  {
+		background-size: 65% 88% !important;
+		background-position: 7px 2px !important;
+		margin: 6px 5px;
+	}
+
+	#create_intro_meeting_everyday .modal-dialog,
+	#create_intro_meeting_today .modal-dialog,
+	#create_intro_meeting_tomorrow .modal-dialog,
+	#create_intro_meeting_wednesday .modal-dialog,
+	#create_intro_meeting_thursday .modal-dialog,
+	#create_intro_meeting_friday .modal-dialog {
+		top: 22% !important;
+	}
+
+	#create_intro_meeting_everyday .today_time li,
+	#create_intro_meeting_today .today_time li,
+	#create_intro_meeting_tomorrow .today_time li,
+	#create_intro_meeting_wednesday .today_time li,
+	#create_intro_meeting_thursday .today_time li,
+	#create_intro_meeting_friday .today_time li  {
+		background-size: 65% 88% !important;
+		background-position: 7px 2px !important;
+		margin: 6px 5px;
+	}
+
+	#myModal2 .modal-header {
+		padding: 5px 15px !important;
+		background: #768292;
+	}
+
+	#myModal2 .close {
+    	margin-top: -5px !important;
+	}
+
+	#hr_mange_time_popup_01 .panel-heading li{
+		width: 16.6%;
+	}
+
+	#hr_mange_time .panel-heading li a {
+		background: #3F4A59;
+		border-radius: 0px;
+	}
+
+
+}
+
+#current_status_tr_color th:hover label {
+    color: #fff !important;
+}
+
+#select_days_clone_value{
+	display: grid;
+    grid-template-columns: 66fr 30fr 30fr 30fr 30fr 30fr 30fr !important;
+	grid-gap: 10px;
+}
+
+.gray_remain_fields{
+	background: #bdbdbd;
+    color: #fff;
+}
+
+#length_in_months_clone{
+	display: grid;
+    grid-template-columns: 71fr 15fr 15fr 15fr 15fr 15fr 15fr 15fr 15fr 15fr 15fr 15fr 15fr !important;
+	grid-gap: 10px;
+}
+
+.current_update_month{
+	padding-top: 8px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 376px){
+	#myModal_job_detail_edit .modal-header {
+		padding: 5px 8px;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px){
+	.current_update_month{
+		padding-top: 8px;
+		border: 1px solid #000;
+	}
+}
+
+
+.desktop_clone_table .panel-body{
+	padding: 5px 0px 5px 0px !important;
+}
+
+#clone_table_main .gray_remain_fields {
+	background: #bdbdbd !important;
+    color: #fff !important;
+}
+
+#clone_table_main .event_heading {
+	background: #fff;
+    color: #000;
+}
+
+#select_days_label{
+	border-bottom: none;
+}
+
+#modal_dropdown .dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+    margin-top: -1px;
+    margin-left: 2px;
+}
+
+//////////////////////////
+#job_intro_checked label {
+	margin: 0px;
+    line-height: 27px;
+}
+
+#job_intro_checked .event_client_price {
+	border: 1px solid #000;
+	height: 29px;
+}
+
+/* #job_intro_checked .event_client_pbox{
+	display: grid;
+    grid-template-columns: 60fr 10fr 60fr 10fr 60fr 10fr 60fr;
+    grid-gap: 10px;
+} */
+
+
+
+#job_intro_checked .gray_remain_fields {
+	background: #e2e2e2 !important;
+    color: #fff !important;
+}
+
+#job_intro_checked .checkbox_inline_flex {
+	display: inline-flex;
+}
+
+#job_intro_checked .event_heading {
+	    background: #fff;
+    color: #000;
+    width: 100%;
+	padding-left: 5px;
+}
+
+#job_intro_checked .event_heading label {
+    margin: 0px;
+    line-height: 27px;
+}
+
+#job_intro_checked .clone_portion_heading label{
+	line-height: 35px !important;
+    color: #fff;
+    font-weight: bold !important;
+    font-size: 22px !important;
+}
+
+#job_intro_checked .form-group {
+  display: block;
+  margin-bottom: 0px;
+}
+
+#job_intro_checked .form-group input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+#job_intro_checked .form-group label {
+  position: relative;
+  cursor: pointer;
+}
+
+#job_intro_checked .form-group label:before {
+	content: '';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1px solid #3F4A59;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+	    margin-top: 5px;
+}
+
+#job_intro_checked .form-group input:checked + label:after {
+	    content: '';
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 6px;
+    height: 13px;
+    border: solid #42C500;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+#days_all_checked .event_heading{
+	margin-right: 5px;
+}
+
+
+#job_intro_checked .label_inline_flex{
+	display: inline-flex;
+}
+
+#team_category_data .pool_head_main img{
+	width: 36px !important;
+	height: 36px;
+	border-radius: 50%;
+}
+
+
+
+@media only screen and (min-width: 1100px) and (max-width: 1920px){
+	.intro_check_padd{
+		padding-left: 0px !important;
+	}
+	
+	.intro_check_padd_right{
+		padding-right: 0px !important;
+	}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1250px){
+	#job_intro_checked h2 {
+		overflow: hidden;
+		white-space: nowrap;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px){
+	#job_intro_checked .event_client_price {
+		margin-bottom: 10px;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1099px){
+	#job_intro_checked span {
+		right: 25px !important;
+		top: 31px !important;
+	}
+}

@@ -1,0 +1,368 @@
+ // client or Business area starts
+
+            if ( $('#clientBusiness').val() == ''  || $('#clientBusiness').val() == 'new') 
+            {
+                $(".dropdown__select7").css({"border-color": "red", 
+                                          "border-size":"1px", 
+                                          "border-style":"solid"});
+                
+                    $('html, body').animate({
+                      scrollTop: $(".content-wrapper").offset().top
+                    }, 1000)
+                return false;
+            }
+            if ( $('#clientBusiness').val() !== ''  || $('#clientBusiness').val() !== 'new') 
+            {
+                $(".dropdown__select7").css({"border-color": "", 
+                                          "border-size":"", 
+                                          "border-style":""});
+            }
+            if ( $('#hiringManager').val() == '' || $('#hiringManager').val() == 'new' ) 
+            {
+                $(".dropdown__select8").css({"border-color": "red", 
+                                          "border-size":"1px", 
+                                          "border-style":"solid"});
+                
+                    $('html, body').animate({
+                      scrollTop: $(".content-wrapper").offset().top
+                    }, 1000)
+                return false;
+            }
+            if ( $('#hiringManager').val() !== ''  || $('#hiringManager').val() !== 'new') 
+            {
+                $(".dropdown__select8").css({"border-color": "", 
+                                          "border-size":"", 
+                                          "border-style":""});
+            }
+            // client or Business area ends
+            // job field check start
+            if ($('#jobField').val()=='') 
+            {
+                $("#jobField").css({"border-color": "red", 
+                                          "border-size":"1px", 
+                                          "border-style":"solid"});
+                
+                    $('html, body').animate({
+                      scrollTop: $(".content-wrapper").offset().top
+                    }, 1000)
+                $('#jobField').focus();
+                return false;
+            }
+            if ($('#jobField').val() !=='') 
+            {
+                $("#jobField").css({"border-color": "", 
+                                          "border-size":"", 
+                                          "border-style":""});
+            }
+            // job field check ends
+            // job title field starts
+            if ($('#jobTitle').val()=='') 
+            {
+                $("#jobTitle").css({"border-color": "red", 
+                                          "border-size":"1px", 
+                                          "border-style":"solid"});
+                
+                    $('html, body').animate({
+                      scrollTop: $(".content-wrapper").offset().top
+                    }, 1000)
+                $('#jobTitle').focus();
+                return false;
+            }
+            if ($('#jobTitle').val() !=='') 
+            {
+                $("#jobField").css({"border-color": "", 
+                                          "border-size":"", 
+                                          "border-style":""});
+            }
+            // job title fields ends
+            if ($('#jobLocation').val()==null) 
+            {
+                alertify.alert("Select Atleast One location", function()
+                {
+                    alertify.warning('OK');
+                });
+                $('#jobLocation').focus();
+                return false;
+            }
+
+            if ( (!$('#ntj_leader_of_leader').prop("checked")) && (!$('#ntj_leader_of_professional').prop( "checked")) && (!$('#ntj_individual_prefossional_page_desk').prop( "checked")))
+            {
+                alertify.alert("Select An Option From Job Level", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;      
+            }
+            if ($('#ntj_leader_of_leader').prop("checked")) 
+            {
+                if ($('#teamDirectReport').val()=='')
+                {
+                    alertify.alert("Team Strength Required", function()
+                {
+                    alertify.warning('OK');
+                });
+                    $('#teamDirectReport').focus();
+                    return false;
+                }
+                if ($('#totalTeamFunctions').val()=='')
+                {
+                    alertify.alert("Total Team Functions Required", function()
+                {
+                    alertify.warning('OK');
+                });
+                    $('#totalTeamFunctions').focus();
+                    return false;
+                }
+            }
+            if ($('#ntj_leader_of_professional').prop("checked")) 
+            {
+                if ($('#teamDirectReport').val()=='')
+                {
+                    alertify.alert("Team Strength Required", function()
+                {
+                    alertify.warning('OK');
+                });
+                    $('#teamDirectReport').focus();
+                    return false;
+                }
+            }
+
+            if ( (!$('#perm').prop("checked")) && (!$('#ftc').prop("checked")) && (!$('#contractor_page_desk').prop("checked")) )
+            {
+                alertify.alert("Select Contract Type", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;
+            }
+
+            if ($('#ftc').prop("checked") || $('#contractor_page_desk').prop("checked"))
+            {
+                if ((!$( "#length_months_1").prop("checked")) && (!$( "#length_months_2").prop("checked")) && (!$( "#length_months_3").prop("checked")) &&  (!$( "#length_months_4").prop("checked")) && (!$( "#length_months_5").prop("checked")) && (!$( "#length_months_6").prop("checked")) && (!$( "#length_months_7").prop("checked")) && (!$( "#length_months_8").prop("checked")) && (!$( "#length_months_9").prop("checked")) && (!$( "#length_months_10").prop("checked")) && (!$( "#length_months_11").prop("checked")) && (!$( "#length_months_12").prop("checked"))) 
+                {
+                    alertify.alert("Select Contract Months", function()
+                {
+                    alertify.warning('OK');
+                });
+                    return false;
+                }
+                
+            }
+            
+
+            if ($('#contractor_page_desk').prop("checked"))
+            {
+               if ($('#pay_dialy_drp_des_ntj').val()=='')
+                {
+                    alertify.alert("Choose Daily Wage", function()
+                {
+                    alertify.warning('OK');
+                });
+                    return false;
+                }
+            }
+            if ($('#ftc').prop("checked"))
+            {
+               if ($('#pay_frst_drp').val()=='')
+                {
+                    alertify.alert("Choose Annual Income", function()
+                {
+                    alertify.warning('OK');
+                });
+                    return false;
+                }
+            }
+            if ($('#pay_bonus_percentage').val()=='')
+            {
+                    alertify.alert("Choose Bonus Percentage", function()
+                {
+                    alertify.warning('OK');
+                });
+                    return false;   
+            }
+            if ((!$('#perm0010').prop('checked')) && (!$('#part_time01').prop('checked')) ) 
+            {   
+                alertify.alert("Choose Working Routine", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;
+            }
+            if ($('#part_time01').prop('checked'))
+            {
+                if($('#workingHours').val()=='')
+                {
+                    alertify.alert("Select Working Hours", function()
+                {
+                    alertify.warning('OK');
+                });
+                    return false;
+                }
+            }
+            if ($('#workingHours').val()!=='')
+            {
+                if( (!$('#select_any_days_desk_ntj').prop('checked')) && (!$('#select_any_days_2_desk_ntj').prop('checked')) && (!$('#select_any_days_3_desk_ntj').prop('checked')) && (!$('#select_any_days_4_desk_ntj').prop('checked')) && (!$('#select_any_days_5_desk_ntj').prop('checked')) && (!$('#select_any_days_6_desk_ntj').prop('checked')))
+                {
+                    alertify.alert("Select Working Days", function()
+                {
+                    alertify.warning('OK');
+                });
+                    return false;
+                }
+            }
+            if ($('#objective_1').val()=='')
+            {
+                alertify.alert("Select Working Days", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;
+            }
+            if ($('#objective_2').val()=='')
+            {
+                alertify.alert("Enter Objective Two", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;
+            }
+            if ($('#objective_3').val()=='')
+            {
+                alertify.alert("Enter Objective Three", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;
+            }
+
+            if ( (!$('#Top_talent').prop('checked')) && (!$('#solid_performer').prop('checked')) && (!$('#High_potential').prop('checked')) )
+            {
+                alertify.alert("Select An Option From Level Capability", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;
+            }
+
+            if ( (!$('#like').prop('checked')) && (!$('#Transferrable_skills').prop('checked')) && (!$('#Open_minded').prop('checked')) )
+            {
+                alertify.alert("Select An Option From Experience", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;
+            }
+            if ( (!$('#Within_3_years').prop('checked')) && (!$('#After_3_years').prop('checked')) && (!$('#No_requirement').prop('checked')) )
+            {
+                alertify.alert("Select An Option From warningor-ready", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;
+            }
+            if ( (!$('#Required').prop('checked')) && (!$('#Preferred').prop('checked')) && (!$('#No_requirement2').prop('checked')) )
+            {
+                alertify.alert("Select An Option From Qualification", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;
+            }
+            if ($('#skill_1').val()=='')
+            {
+                alertify.alert("Enter Skill One", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;
+            }
+            if ($('#skill_2').val()=='')
+            {
+                alertify.alert("Enter Skill Two", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;
+            }
+            if ($('#skill_3').val()=='')
+            {
+                alertify.alert("Enter Skill Three", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;
+            }
+
+            if ( (!$('#Car_allowance').prop('checked')) && (!$('#Car_allowance01').prop('checked')) && (!$('#Car_allowance02').prop('checked')) )
+            {
+                alertify.alert("Select An Option From Bonus Buy-out", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;
+            }
+
+            if ( (!$('#relocation_ntj_none').prop('checked')) && (!$('#relocation_ntj_cost').prop('checked')) && (!$('#relocation_ntj_visa_sponsor').prop('checked')) )
+            {
+                alertify.alert("Select An Option From Relocation Assistance", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;
+            }
+            if ( (!$('#None_working').prop('checked')) && (!$('#Some3').prop('checked')) && (!$('#Fully_flexible2').prop('checked')) )
+            {
+                alertify.alert("Select An Option From Flexible Working", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;
+            }
+            if ($('#referral_1').val()=='')
+            {
+                alertify.alert("Enter Email/Name of Target Candidate", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;
+            }
+            if ($('#referral_2').val()=='')
+            {
+                alertify.alert("Enter Email/Name of Target Candidate", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;
+            }
+            if ($('#referral_3').val()=='')
+            {
+                alertify.alert("Enter Email/Name of Target Candidate", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;
+            }
+            if ($('#AdditionalSearchTxt').val()=='')
+            {
+                alertify.alert("Enter Additional Search Requirements", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;
+            }
+            if ($('#videoLink').val()=='')
+            {
+                alertify.alert("Enter Video Link", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;
+            }
+            if ($('#fileField').val()=='')
+            {
+                alertify.alert("Please Select a File", function()
+                {
+                    alertify.warning('OK');
+                });
+                return false;
+            }
